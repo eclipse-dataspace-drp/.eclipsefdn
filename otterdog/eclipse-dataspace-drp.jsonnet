@@ -10,4 +10,9 @@ orgs.newOrg('eclipse-dataspace-drp') {
       default_workflow_permissions: "write",
     },
   },
+} + {
+  # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
+  _repositories+:: [
+    orgs.newRepo('.github')
+  ],
 }
