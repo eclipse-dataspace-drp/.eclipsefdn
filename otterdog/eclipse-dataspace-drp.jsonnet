@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-dataspace-drp') {
+orgs.newOrg('technology.dataspace-drp', 'eclipse-dataspace-drp') {
   settings+: {
     description: "",
     name: "Eclipse Dataspace DRP",
